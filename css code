@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <style>
-    /* Global Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #d2a896;
@@ -13,7 +12,6 @@ body {
     align-items: center;
 }
 
-/* Header Styles */
 header {
     width: 80%;
     max-width: 1200px;
@@ -57,7 +55,6 @@ nav ul li a.active {
     text-decoration: none;
 }
 
-/* Hero Section */
 .hero {
     width: 80%;
     max-width: 1200px;
@@ -99,7 +96,6 @@ h2 {
     margin: 10px 0;
 }
 
-/* Buttons */
 .buttons {
     margin-top: 20px;
 }
@@ -127,7 +123,6 @@ h2 {
     margin-left: 5px;
 }
 
-/* Social Media Icons */
 .social-icons {
     display: flex;
     gap: 15px;
@@ -144,7 +139,6 @@ h2 {
 }
 
 
-/* Hero Image */
 .hero-image {
     position: relative;
     width: 300px;
@@ -158,7 +152,6 @@ h2 {
     object-fit: cover;
 }
 
-/* Circular Rotating Text */
 .circular-text {
     position: absolute;
     width: 300px;
@@ -183,7 +176,6 @@ h2 {
     }
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .hero {
         flex-direction: column;
@@ -207,7 +199,6 @@ h2 {
 </head>
 <body>
 
-    <!-- Header Section -->
     <header>
         <div class="logo">Jenny</div>
         <nav>
@@ -223,7 +214,6 @@ h2 {
         <a href="#" class="chat-btn">Let's chat</a>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
             <p class="intro">WELCOME TO MY WORLD</p>
